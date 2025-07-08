@@ -1,49 +1,59 @@
 
 body {
-  background-color: #120c1a;
-  color: #fbeeff;
+  background-color: #1a0d1a;
+  color: #fff0f5;
   font-family: 'Georgia', serif;
   margin: 0;
-  padding: 0;
 }
 header {
-  background-color: #1e0b2d;
-  padding: 20px;
+  background-color: #300030;
+  padding: 1rem;
   text-align: center;
-}
-header h1 {
-  margin: 0;
-  color: #f8e1ff;
 }
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
   padding: 0;
 }
-nav li {
-  margin: 0 15px;
-}
 nav a {
-  color: #fbeeff;
+  color: #fff0f5;
   text-decoration: none;
-  font-weight: bold;
 }
 main {
-  padding: 30px;
-}
-section {
-  margin-bottom: 50px;
+  padding: 2rem;
 }
 h2 {
-  color: #e0b3ff;
+  color: #e6b3ff;
 }
-footer {
-  background-color: #1e0b2d;
-  color: #c8a2c8;
+.item, .cristal {
+  background: #260026;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 12px;
+}
+.botao {
+  display: inline-block;
+  background: #9900cc;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.cristal img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 10px;
+}
+.cristal p {
   text-align: center;
-  padding: 20px;
-}
-a {
-  color: #ffd6ff;
+  margin-top: 0.5rem;
 }
